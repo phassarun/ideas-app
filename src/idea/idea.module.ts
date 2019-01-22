@@ -7,6 +7,6 @@ import { IdeaService } from './idea.service';
 @Module({
   imports: [TypeOrmModule.forFeature([IdeaEntity])],
   controllers: [IdeaController],
-  providers: [IdeaService]
+  providers: [IdeaService],
 })
 export class IdeaModule {}

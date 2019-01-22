@@ -1,5 +1,4 @@
 export interface IdeaDTO {
-    idea: string;
-    description: string;
-    
+  idea: string;
+  description: string;
 }
